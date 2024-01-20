@@ -1,0 +1,13 @@
+.Body {
+	display: grid;
+}
+
+.Header {
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.Content {
+	grid-row-start: 2;
+	grid-row-end: 2;
+}

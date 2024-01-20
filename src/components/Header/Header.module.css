@@ -1,0 +1,14 @@
+.HeaderDiv {
+	display: grid;
+	grid-template-columns: 7rem auto;
+}
+
+.LogoCell {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+.HeaderContentCell {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}

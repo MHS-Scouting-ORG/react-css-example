@@ -1,0 +1,32 @@
+.LogoContainer {
+	background-color: white;
+	animation-name: spin;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-timing-function: linear;
+	border-radius: 10px;
+	padding: 0;
+
+}
+
+.LogoText {
+	color: blue;
+	margin: 0rem;
+	font-size: 1rem;
+}
+
+@keyframes spin {
+	0% {
+		rotate: y 0deg;
+	}
+/*
+   50% {
+		rotate: y 180deg;
+	}
+
+*/
+	100% {
+		rotate: y 360deg;
+	}
+}
